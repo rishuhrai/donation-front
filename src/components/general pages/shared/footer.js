@@ -13,9 +13,9 @@ const Footer= () => {
                     <div className="col-md-4">
                         {/* <img src="images/logo-light.svg" alt="" width="150" className="mb1"/> */}
                         <h3 >Caritas</h3>
-                        <p>Lorem ipsum dolor sit amet, adipisicing elit consectetur, sed do eiusmod tempor incididunt ut dolore magna aliqua labore et. Ut enim ad minim veniam dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        <p>Donate to charity with transparency. Our user-friendly interface ensures secure transactions and clear visibility on where your money goes. Join us in making a positive impact on the world through our commitment to transparency</p>
                     </div>
-    
+    {/*
                     <div className="col-md-3 col-md-offset-2 col-sm-6">
                         <h5 className="underline mtn">Lorem ipsum</h5>
                         <ul>
@@ -23,7 +23,7 @@ const Footer= () => {
                             <li><a href="index">Lorem ipsum dolor sit amet</a></li>
                             <li><a href="index">Lorem ipsum dolor sit amet</a></li>
                         </ul>
-                    </div>
+    </div> */}
 {/*     
                     <div className="col-md-2 col-sm-4">
                         <h5 className="underline mtn">Shop Now</h5>
@@ -32,7 +32,7 @@ const Footer= () => {
                             <li><a href="index">Craft Work</a></li>
                             <li><a href="index">Handmade Cloths</a></li>
                         </ul>
-                    </div> */}
+                    </div> 
     
                     <div className="col-md-3 col-sm-6">
                         <h5 className="underline mtn">Want To Help?</h5>
@@ -42,7 +42,7 @@ const Footer= () => {
                             <li><a href="index">Partner with us</a></li>
                         </ul>
                     </div>
-    
+    */}
                 </div> {/* end row */}
 
                 <div className="row">

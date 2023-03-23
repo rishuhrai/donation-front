@@ -31,7 +31,7 @@ function App() {
                     {/*<li><a href ='/how_it_works'>How it works</a></li> -->*/}
                     <li><a href ='/causes'>Causes</a></li>                
                     <li><a href="/about">About Us</a></li>
-                    <li><a href="#login">Login</a></li>
+                    <li><a href="/login">Login</a></li>
                     <li><a href="#register">Register</a></li>
                     <li className="left-separator"><a href="mailto:info@causethedifference.com"><i className="fa fa-envelope"></i> info@caritas.com</a></li>
                 </ul> {/* end navbar-nav */}

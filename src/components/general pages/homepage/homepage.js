@@ -26,7 +26,7 @@ const Homepage = () =>{
                                 </ul> {/* end texts */}                            
                             </div>{/* end animate-title */}
                             <h4 style={{color:'#fff'}}>Welcome to caritas: Charity donation platform where you can donate and help make a difference</h4>
-                            <button type="button" className="btn gw-btn" style={{padding:'10px', fontSize:'20px'}}>How it works</button>
+                            {/*<button type="button" className="btn gw-btn" style={{padding:'10px', fontSize:'20px'}}>How it works</button>*/}
                             </div></div> {/* end inner */}
                     </div> {/* end outer */}
                 </div> {/* end container */}
@@ -84,9 +84,9 @@ const Homepage = () =>{
                         <Cause
                             picture = 'https://placehold.it/1080x718?text=cause-img-1'
                             alt = 'Health picture'
-                            caption = 'Lorem ipsum.'
+                            caption = 'HealthHope'
                             category = 'Health'
-                            description = 'Consectetur adipisicing elit, sed do lorem ipsum dolor sit amet, eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                            description = 'Providing healthcare services and support to underserved communities.Our mission is to ensure that everyone has access to quality healthcare, regardless of their socio-economic background. '
                             progressBar = '70%'
                             amountContributed = '$10,500.00'
                             amountRequired = '$15,000.00'
@@ -98,9 +98,9 @@ const Homepage = () =>{
                         <Cause
                             picture = 'https://placehold.it/1080x718?text=cause-img-2'
                             alt = 'uma right picture'
-                            caption = 'Cool ipsum.'
+                            caption = 'JusticeNow'
                             category = 'Human Right'
-                            description = 'Consectetur adipisicing elit, sed do lorem ipsum dolor sit amet, eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                            description = 'Consectetur How it worksadipisicing elit, sed do lorem ipsum dolor sit amet, eiusmod tempor incididunt ut labore et dolore magna aliqua.'
                             progressBar = '20%'                       
                             amountContributed = '$1,500.00'
                             amountRequired = '$15,000.00'
@@ -112,9 +112,9 @@ const Homepage = () =>{
                         <Cause
                             picture = 'https://placehold.it/1080x718?text=cause-img-3'
                             alt = 'Infrastructural development picture'
-                            caption = 'Ipsum ipsum.'
+                            caption = 'Ipas'
                             category = 'Infrastructural Development'
-                            description = 'Consectetur adipisicing elit, sed do lorem ipsum dolor sit amet, eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                            description = 'Dedicated to improving lives by building sustainable infrastructure in underdeveloped communities. We work on projects ranging from building roads and bridges to providing access to clean water and electricity.'
                             progressBar = '55%'
                             amountContributed = '$8,500.00'
                             amountRequired = '$15,000.00'
@@ -135,21 +135,21 @@ const Homepage = () =>{
                     <div className="row">
                         <header className="section-header text-center col-md-8 col-md-offset-2">
                             <h3 className="underline">About the trust</h3>
-                            <p className="section-intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                            <p className="section-intro">Provides transparent transactions and donations for charitable causes.</p>
                         </header>
                     </div> {/* end row */}
 
                     <div className="row">
                         <div className="col-md-8">
                             <h5 className="underline">The best charity / fundraising site.</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+                            <p>Introducing a website that makes donating to charity easy and transparent. With a user-friendly interface, you can make secure transactions and see exactly where your money is going. This charitable institution is committed to transparency and making a positive impact on the world.</p>
                             <div className="col-md-5">
                                 <blockquote>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Give with clarity, impact with transparency
                                 </blockquote>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p>Rest assured, our website only features verified charitable organizations, so you can trust that your donation is going to a worthy cause. We understand the importance of privacy, which is why we offer completely anonymous transactions. Your personal information is kept confidential, so you can donate with peace of mind. Join us in making the world a better place, one donation at a time.</p>
+                            <p>Our mission is to create a positive impact on society by connecting generous donors with deserving charities. Through our website, you can make a meaningful contribution to a cause you care about and help make a difference in the world.</p>
                         </div>
 
                         <div className="col-md-4">
